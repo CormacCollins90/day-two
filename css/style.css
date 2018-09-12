@@ -1,0 +1,42 @@
+.box {
+    color: black;
+    border: 1px solid black;
+    height: 200px;
+    width: 50px;
+}
+
+.box2 {
+    display: none;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .box {
+        background-color: blue;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .box2 {
+        display: block;
+        background-color: pink
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .box {
+        background-color: red;
+        width: 50%
+    }
+    
+    .box2 {
+        display: block;
+        background-color: indigo;
+          width: 30% 
+        
+    }
+
+}
